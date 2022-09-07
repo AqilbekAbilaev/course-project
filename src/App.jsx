@@ -19,7 +19,7 @@ function App() {
   const { setCollections } = useCollections();
 
   useEffect(() => {
-    axios.get(`${"https://course-project-me.herokuapp.com/"}/collections`).then((data) => {
+    axios.get(`${"https://course-project-me.herokuapp.com"}/collections`).then((data) => {
       setCollections(data.data.collection);
     });
   }, []);

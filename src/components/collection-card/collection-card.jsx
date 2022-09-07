@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
-const URL = "https://course-project-me.herokuapp.com/";
+const URL = "https://course-project-me.herokuapp.com";
 
 const CollectionCard = ({ src, name, topic, description, id }) => {
   return (

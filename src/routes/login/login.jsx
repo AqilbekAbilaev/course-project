@@ -13,7 +13,7 @@ import github from "../../assets/github.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./login.scss";
 
-const URL = `${"https://course-project-me.herokuapp.com/"}/login`;
+const URL = `${"https://course-project-me.herokuapp.com"}/login`;
 
 const Login = () => {
   const [curUsr, setCurUsr] = useState({

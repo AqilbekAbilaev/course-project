@@ -15,7 +15,7 @@ import useAuth from "../../hooks/useAuth";
 
 import "./create.scss";
 
-const URL = "https://course-project-me.herokuapp.com/";
+const URL = "https://course-project-me.herokuapp.com";
 const Create = (props) => {
   const [topic, setTopic] = useState([]);
   const [collection, setCollection] = useState({});

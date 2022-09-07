@@ -9,7 +9,7 @@ import close from "../../assets/cross.png";
 
 import "./multiselect.scss";
 
-const URL = "https://course-project-me.herokuapp.com/";
+const URL = "https://course-project-me.herokuapp.com";
 
 const MultipleSelect = ({ setItemTags }) => {
   const [tag, setTag] = useState([]); // For new option

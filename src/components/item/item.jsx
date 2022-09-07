@@ -16,7 +16,7 @@ import checkUser from "../../utils/check-user";
 
 import "./item.scss";
 
-const URL = "https://course-project-me.herokuapp.com/";
+const URL = "https://course-project-me.herokuapp.com";
 
 const Item = () => {
   const [like, setLike] = useState(true);
