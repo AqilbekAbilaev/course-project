@@ -1,0 +1,30 @@
+.search-form {
+  position: relative;
+}
+
+.active {
+  padding: .6rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  overflow: hidden;
+  position: absolute;
+  background-color: #444;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100%;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+.passive {
+  display: none;
+}
+
+.logout-btn {
+  margin-left: 1rem;
+}
+
+.collection-btn {
+  margin-top: 2rem;
+}

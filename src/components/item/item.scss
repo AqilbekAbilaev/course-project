@@ -1,0 +1,23 @@
+.like {
+  font-size: 25px;
+  color: red;
+  margin-left: auto;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.like-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-counter {
+  margin-top: 1rem;
+  margin-left: .4rem;
+}
+
+.item-btn {
+  margin-left: 1rem;
+}

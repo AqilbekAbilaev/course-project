@@ -1,0 +1,18 @@
+.comment-container {
+  border-radius: 14px;
+  border-bottom-left-radius: 0;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.from {
+  text-align: start;
+}
+
+.date {
+  font-size: 12px;
+  margin-left: 2rem;
+}
