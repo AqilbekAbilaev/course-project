@@ -19,7 +19,7 @@ function App() {
   const { setCollections } = useCollections();
 
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_URL}/collections`).then((data) => {
+    axios.get(`${"https://course-project-me.herokuapp.com/"}/collections`).then((data) => {
       setCollections(data.data.collection);
     });
   }, []);

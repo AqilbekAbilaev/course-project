@@ -44,7 +44,7 @@ const SignUp = () => {
     setErr(null);
 
     axios
-      .post(`${process.env.REACT_APP_URL}/register`, {
+      .post(`${"https://course-project-me.herokuapp.com/"}/register`, {
         email,
         pwd,
         usrname,

@@ -12,7 +12,7 @@ import useAuth from "../../hooks/useAuth";
 
 import "./collection.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const Collection = ({}) => {
   const [collection, setCollection] = useState(null);
@@ -77,7 +77,7 @@ const Collection = ({}) => {
         <Col>
           <img
             className="collection-img"
-            src={process.env.REACT_APP_URL + "/" + collection?.image}
+            src={"https://course-project-me.herokuapp.com/" + "/" + collection?.image}
             alt="collection image"
           />
         </Col>

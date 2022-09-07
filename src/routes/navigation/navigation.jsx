@@ -9,7 +9,7 @@ import navLogo from "../../assets/icons8-storage-48.png";
 
 import "./navigation.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const Navigation = () => {
   const [search, setSearch] = useState("");

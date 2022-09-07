@@ -9,7 +9,7 @@ import close from "../../assets/cross.png";
 
 import "./multiselect.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const MultipleSelect = ({ setItemTags }) => {
   const [tag, setTag] = useState([]); // For new option

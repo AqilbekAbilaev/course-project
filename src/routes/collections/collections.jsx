@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const Collections = () => {
   const { collections, setCollections } = useCollections();

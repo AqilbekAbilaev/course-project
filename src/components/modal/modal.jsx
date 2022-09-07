@@ -9,7 +9,7 @@ import addItemIcon from "../../assets/add-item.png";
 
 import "./modal.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const CreateInputModal = ({ parent, setFields }) => {
   const [show, setShow] = useState(false);

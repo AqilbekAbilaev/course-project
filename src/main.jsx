@@ -9,8 +9,8 @@ import { TagsProvider } from "./context/tags";
 import { CollectionsProvider } from "./context/collections";
 import {FieldsProvider} from "./context/field"
 
-const domain = process.env.REACT_APP_DOMAIN;
-const clientId = process.env.REACT_APP_ID;
+const domain = "devalyus.eu.auth0.com";
+const clientId = "NwqXUo58iVOOGzp7Rd1m6t2hcFaXSvPz";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>

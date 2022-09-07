@@ -16,7 +16,7 @@ import checkUser from "../../utils/check-user";
 
 import "./item.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const Item = () => {
   const [like, setLike] = useState(true);

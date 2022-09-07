@@ -15,7 +15,7 @@ import user from "../../assets/profile.png";
 
 import "./admin.scss";
 
-const URL = process.env.REACT_APP_URL;
+const URL = "https://course-project-me.herokuapp.com/";
 
 const Admin = () => {
   const [usrs, setUsrs] = useState([]);
