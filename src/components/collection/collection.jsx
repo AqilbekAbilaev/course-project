@@ -12,7 +12,7 @@ import useAuth from "../../hooks/useAuth";
 
 import "./collection.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const Collection = ({}) => {
   const [collection, setCollection] = useState(null);
@@ -77,7 +77,7 @@ const Collection = ({}) => {
         <Col>
           <img
             className="collection-img"
-            src={process.env.VITE_URL + "/" + collection?.image}
+            src={process.env.REACT_APP_URL + "/" + collection?.image}
             alt="collection image"
           />
         </Col>

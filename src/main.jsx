@@ -9,8 +9,8 @@ import { TagsProvider } from "./context/tags";
 import { CollectionsProvider } from "./context/collections";
 import {FieldsProvider} from "./context/field"
 
-const domain = process.env.VITE_AUTH_DOMAIN;
-const clientId = process.env.VITE_AUTH_ID;
+const domain = process.env.REACT_APP_DOMAIN;
+const clientId = process.env.REACT_APP_ID;
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>

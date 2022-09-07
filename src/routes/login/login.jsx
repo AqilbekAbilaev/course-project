@@ -13,7 +13,7 @@ import github from "../../assets/github.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./login.scss";
 
-const URL = `${process.env.VITE_URL}/login`;
+const URL = `${process.env.REACT_APP_URL}/login`;
 
 const Login = () => {
   const [curUsr, setCurUsr] = useState({

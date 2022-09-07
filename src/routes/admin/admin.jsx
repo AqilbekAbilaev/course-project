@@ -15,7 +15,7 @@ import user from "../../assets/profile.png";
 
 import "./admin.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const Admin = () => {
   const [usrs, setUsrs] = useState([]);

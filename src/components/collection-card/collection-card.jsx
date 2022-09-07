@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const CollectionCard = ({ src, name, topic, description, id }) => {
   return (

@@ -9,7 +9,7 @@ import close from "../../assets/cross.png";
 
 import "./multiselect.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const MultipleSelect = ({ setItemTags }) => {
   const [tag, setTag] = useState([]); // For new option

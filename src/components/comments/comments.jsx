@@ -11,7 +11,7 @@ import checkUser from "../../utils/check-user";
 
 import "./comments.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const Comments = ({ id }) => {
   const [comment, setComment] = useState({});

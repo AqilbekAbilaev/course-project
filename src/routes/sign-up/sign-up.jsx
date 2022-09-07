@@ -44,7 +44,7 @@ const SignUp = () => {
     setErr(null);
 
     axios
-      .post(`${process.env.VITE_URL}/register`, {
+      .post(`${process.env.REACT_APP_URL}/register`, {
         email,
         pwd,
         usrname,

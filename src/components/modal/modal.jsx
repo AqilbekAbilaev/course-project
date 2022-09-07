@@ -9,7 +9,7 @@ import addItemIcon from "../../assets/add-item.png";
 
 import "./modal.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const CreateInputModal = ({ parent, setFields }) => {
   const [show, setShow] = useState(false);

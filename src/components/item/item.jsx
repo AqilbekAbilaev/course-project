@@ -16,7 +16,7 @@ import checkUser from "../../utils/check-user";
 
 import "./item.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 
 const Item = () => {
   const [like, setLike] = useState(true);

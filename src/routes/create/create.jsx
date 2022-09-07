@@ -15,7 +15,7 @@ import useAuth from "../../hooks/useAuth";
 
 import "./create.scss";
 
-const URL = process.env.VITE_URL;
+const URL = process.env.REACT_APP_URL;
 const Create = (props) => {
   const [topic, setTopic] = useState([]);
   const [collection, setCollection] = useState({});
